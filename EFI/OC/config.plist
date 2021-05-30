@@ -30,14 +30,6 @@
 				<key>Enabled</key>
 				<true/>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-RHUB.aml</string>
-				<key>Path</key>
-				<string>SSDT-RHUB.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -250,6 +242,10 @@
 			<dict>
 				<key>AAPL,ig-platform-id </key>
 				<data>BwCbPg==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem 	</key>
+				<data>AAAwAQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
 			<dict>
@@ -1031,7 +1027,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>YOURBOARD</string>
+			<string>C02044303GU00001M</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1043,9 +1039,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>YOURSERIAL</string>
+			<string>C02DM0R5046M</string>
 			<key>SystemUUID</key>
-			<string>YOURUUID</string>
+			<string>28BE42D3-3833-4ACF-9A46-C4F1161BDC98</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
