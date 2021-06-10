@@ -494,6 +494,24 @@
 				<key>BundlePath</key>
 				<string>RTCMemoryFixup.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<false/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/itlwm</string>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>itlwm.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -534,8 +552,6 @@
 				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
 				<key>Comment</key>
 				<string></string>
-				<key>Enabled</key>
-				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IONetworkingFamily</string>
 				<key>Identifier</key>
@@ -579,6 +595,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Enabled 1</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arch</key>
