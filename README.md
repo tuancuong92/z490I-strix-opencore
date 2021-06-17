@@ -11,8 +11,8 @@ Specs:
  - RAM: Kingmax 32GB 3200MHz
  - GPU: GT 710
  - LAN + Wireless + Bluetooth: Stock
- - OpenCore version: 0.6.9
- - macOS: 11.3.1
+ - OpenCore version: 0.7.0
+ - macOS: 11.4
  - Case: CoolerMaster MasterBox NR200
 
 Notes:
