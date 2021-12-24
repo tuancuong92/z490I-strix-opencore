@@ -20,3 +20,10 @@ Notes:
 - Config your own SMBios info
 - USB Map is optimized for Motherboard and Case, remap if you want
 
+
+NEW BRANCH: Monterey
+==================================
+ - macOS: 12.1
+ - OpenCore version: 0.7.5
+ - GPU: RX 570
+
