@@ -21,9 +21,9 @@ Notes:
 - USB Map is optimized for Motherboard and Case, remap if you want
 
 
-NEW BRANCH: Monterey
+NEW BRANCH: Big Sur
 ==================================
- - macOS: 12.1
+ - macOS: 11.6.1
  - OpenCore version: 0.7.5
  - GPU: RX 570
 
