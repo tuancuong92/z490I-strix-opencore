@@ -250,11 +250,11 @@
 				<key>layout-id</key>
 				<data>BwAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)
+			<key>#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)
 
 </key>
 			<dict>
-				<key>device-id</key>
+				<key>#device-id</key>
 				<data>8hUAAA==</data>
 			</dict>
 		</dict>
@@ -275,7 +275,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -289,11 +289,11 @@
 				<key>Comment</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -311,7 +311,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -329,7 +329,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -347,7 +347,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -365,7 +365,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -383,7 +383,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -401,7 +401,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -419,6 +419,24 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RTCMemoryFixup</string>
 				<key>Arch</key>
+				<string>x86_64</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string>IntelBluetoothInjector.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
@@ -429,13 +447,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>BlueToolFixup.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
-				<string>BlueToolFixup.kext</string>
+				<string>USBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BlueToolFixup</string>
+				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
@@ -511,7 +529,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>8hUAAA==</data>
 				<key>Identifier</key>
@@ -753,7 +771,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1158,9 +1176,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=7 dk.e1000=0</string>
+				<string>-v alcid=7 dk.e1000=0</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>ZwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
