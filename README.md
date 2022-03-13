@@ -9,10 +9,10 @@ Specs:
 ----------------
  - CPU: Intel Core i9 - 10900
  - RAM: Kingmax 32GB 3200MHz
- - GPU: GT 710
+ - GPU: Sapphire RX570 4GB
  - LAN + Wireless + Bluetooth: Stock
- - OpenCore version: 0.7.0
- - macOS: 11.4
+ - OpenCore version: 0.7.5
+ - macOS: 12
  - Case: CoolerMaster MasterBox NR200
 
 Notes:
