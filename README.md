@@ -2,28 +2,23 @@ Hackintosh ASUS ROG Strix Z490-I Gaming
 ========================================
 
 - RTC fixed
-- Airdrop, Handoff not stable
-
+- Airdrop, Handoff not work
+- Bluetooth nt works
 
 Specs:
 ----------------
  - CPU: Intel Core i9 - 10900
  - RAM: Kingmax 32GB 3200MHz
- - GPU: GT 710
+ - GPU: Radeon RX 570 4GB
  - LAN + Wireless + Bluetooth: Stock
- - OpenCore version: 0.7.0
- - macOS: 11.4
+ - OpenCore version: 0.8.8
+ - macOS: 13.1
  - Case: CoolerMaster MasterBox NR200
 
 Notes:
 --------------
 - Config your own SMBios info
-- USB Map is optimized for Motherboard and Case, remap if you want
+- USB Map is optimized for Motherboard and my own use-caseses, remap if 
+you want
 
-
-NEW BRANCH: Monterey
-==================================
- - macOS: 12.1
- - OpenCore version: 0.7.5
- - GPU: RX 570
 
