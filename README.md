@@ -9,7 +9,7 @@ Specs:
  - CPU: Intel Core i9 - 10900
  - RAM: Kingmax 32GB 3200MHz
  - GPU: Radeon RX 570 4GB
- - LAN + Wireless: Stock
+ - LAN + Wireless: Stock (Intel AX201)
  - OpenCore version: 0.9.6
  - macOS: 14.1.2
  - Case: CoolerMaster MasterBox NR200
